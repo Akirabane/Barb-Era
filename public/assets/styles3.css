@@ -1,0 +1,63 @@
+#mort{
+    width: 400px;
+
+}
+#creatureN3{
+    width: 400px;
+    
+}
+#mort2{
+    width: 800px;
+}
+#grenouille{
+    width: 800px;
+}
+#centrerlecontenues{
+    text-align: center;
+    font-size: 28px;
+}
+#enigme5bisreponse{
+    display: inline-flex;
+}
+
+#LettreMDP{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(29, 24, 18);
+}
+#premiereLettre{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(29, 24, 18);
+}
+#deuxiemeLettre{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(29, 24, 18);
+}
+#troisiemeLettre{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(29, 24, 18);
+}
+#quatreiemLettre{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(29, 24, 18);
+}
+#cinquiemeLettre{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(29, 24, 18);
+}
+#sixiemeLettre{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(29, 24, 18);
+}
+#septiemeLettre{
+    margin-left: 14px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(29, 24, 18);
+}

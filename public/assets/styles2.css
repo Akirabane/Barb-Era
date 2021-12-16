@@ -1,0 +1,80 @@
+.champi {
+	position: absolute;
+	width: 80%;
+	margin: 0 auto;
+	left: 10vw;
+	bottom: -15.8vw;
+}
+
+footer {
+	z-index: 100;
+}
+
+.pfc {
+	width: 20%;
+	border: none;
+	margin-top: 60px;
+	border-radius: 25px;
+	background: rgba(255,255,255,0.8);
+}
+
+.pfc_icons {
+	width: 7vw;
+}
+
+#pfc_div {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-around;
+	padding-bottom: 4vw;
+}
+
+#reponse2 {
+	left: 40vw;
+	bottom: 5.5vw;
+	position: relative;
+}
+
+#reponse2 input {
+	font-size: 25px;
+    height: 40px;
+}
+
+.txt2 {
+	z-index: 10;
+	background-color: rgba(0,0,0,0.4);
+	color: lightgray;
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(5px);
+}
+
+#concours_div {
+	display: flex;
+	justify-content: center;
+}
+
+.div_centre {
+	text-align: center;
+}
+
+.classement2 {
+	width: 25vw;
+}
+
+.m-3 {
+	margin-bottom: 130px !important;
+	margin-top: 60px !important;
+}
+
+@media screen and (max-width: 1366px) {
+	.champi {
+		bottom: -5.2vw;
+	}
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+	.champi {
+		bottom: -10.4vw;
+	}
+}

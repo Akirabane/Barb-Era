@@ -1,0 +1,64 @@
+#trappecadenas{
+    z-index: 2;
+    width: 23vw;
+    position: absolute;
+    left: 39.75vw;
+    margin-top: 9vw;
+}
+#trappeferme{
+    width: 23vw;
+    position: absolute;
+    left: 39.75vw;
+    margin-top: 7.5vw;
+}
+#trappeouverte{
+    width: 24.5vw;
+    position: absolute;
+    left: 39.75vw;
+    margin-top: 5vw;
+}
+#tonneaugauche{
+    width: 120px;
+    z-index: 4;
+    position: absolute;
+    left: 51vw;
+    bottom: -475px;
+}
+#tonneaudroite{
+    z-index: 3;
+    width: 120px;
+    position: absolute;
+    right: 47vw;
+    bottom: -425px;
+}
+#zindex{
+    z-index: -2 !important;
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1601px) {
+    #trappecadenas,#trappeferme,#trappeouverte{
+        left: 41.2vw;
+    }
+    #tonneaugauche{
+        left: 52vw;
+        bottom: -375px;
+    }
+    #tonneaudroite{
+        right: 45vw;
+        bottom: -325px;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    #trappecadenas,#trappeferme,#trappeouverte{
+        left: 42.6vw;
+    }
+    #tonneaugauche{
+        left: 52vw;
+        bottom: -425px;
+    }
+    #tonneaudroite{
+        right: 42vw;
+        bottom: -375px;
+    }
+}

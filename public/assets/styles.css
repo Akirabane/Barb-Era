@@ -1,0 +1,571 @@
+.style-1::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0);
+	width: 15px;
+}
+
+.style-1::-webkit-scrollbar
+{
+
+	width: 15px;
+	background-color: rgba(255,255,255,0);
+}
+
+.style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 15px;
+	background-color: #555;
+	background-color: lightgrey;
+}
+
+.scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.chat_div{
+	display: table;
+	width: 25%;
+	margin: 0 auto;
+}
+.chat_p{
+	background-color: #348a99;
+	border-radius: 10px;
+	padding: 5px;
+}
+.chat_input{
+	width: 100%;
+	padding: 5px;
+	padding-left: 10px;
+	margin-left: 0px;
+
+}
+
+.chat_text{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	height: 65px;
+	border: none;
+	border-radius: 10px;
+	padding-left: 10px
+}
+
+.chat_refresh{
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: orange;
+	width: 87px;
+	padding-left: 10px;
+	border-radius: 15px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+footer {
+	bottom: 0px;
+	background: #348a99;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: orange;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+.gugus_vict{
+	position: absolute;
+	width: 10%;
+	top: 290px;
+	left: 403px;
+}
+
+/*footer a:hover {
+	color: #348a99;
+	background-color: orange;
+	}*/
+
+	nav a {
+		color: white;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin-left: 30px;
+	}
+
+	nav ul {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	ul{
+		margin-bottom: 0;
+	}
+
+	nav {
+		background: #348a99;
+		margin-top: 0px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+
+	nav a {
+		color: white;
+		text-decoration: none;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	#butonlogin{
+		background: orange;
+	}
+
+	nav a:hover {
+		color: white;
+		background-color: #ffa500;
+		transition: all 0.5s ease;
+	}
+
+	#profil {
+		color: white;
+		background-color: #FFCC6F;
+	}
+
+	#profil:hover {
+		background-color: #ffa500;
+		transition: all 0.5s ease;
+	}
+
+	#ban {
+		height: 220px;
+		background: url("title.jpg") center;
+		background-size: cover;
+	}
+	#gif_home{
+		height: 70vh;
+	}
+
+	h1, h2, h3, h4, h5 {
+		text-align: center;
+		margin-top: 20px !important;
+	}
+
+	.info {
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 80%;
+		font-size: 1.3vw;
+	}
+
+	.classement {
+		margin: auto;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 80%;
+	}
+
+	.classement h1{
+		margin-top: 85px;
+		margin-bottom: 85px;
+	}
+
+	.classement a {
+		color: white;
+		padding: 10px;
+		background-color: orange;
+		border-radius: 10px;
+		text-decoration: none;
+		margin-bottom: 20px;
+	}
+
+	#classe {
+		padding: 2px;
+		background: none;
+		text-decoration: underline;
+		color: orange;
+	}
+
+	body {
+		margin: 0;
+		background-color: #dad9d8;
+		color: black;
+		height: 100vh;
+	}
+
+	.cdd {
+		width: 100px;
+	}
+
+	.cdd,.cdd2 {
+		display: flex;
+	}
+
+	.cdd3 {
+		padding-top: 20px;
+		padding-left: 25vw;
+	}
+
+	.info a {
+		text-decoration: none;
+		color: orange;
+	}
+
+	.cd {
+		text-align: center;
+		display: inline-flex;
+		align-items: center;
+		flex-flow: column;
+		width: 150px;
+		background-color: #063970;
+		padding:10px;
+		height: 200px;
+		vertical-align: top;
+		margin-bottom: 25px;
+	}
+
+	#enigme {
+		background-color: darkslategray;
+		width: 100%;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.last {
+		margin-bottom: 0;
+	}
+
+	.cdd2 {
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.margin2 {
+		margin-left: 2.5vw;
+		margin-right: 2.5vw;
+		background-color: #5f5f5f !important;
+		text-align: center;
+	}
+
+	#accueiladmin {
+		margin-top: 80px; 
+		margin-bottom: 40px;
+	}
+
+	.margin2:hover {
+		background-color: #A67B56 !important;
+	}
+
+	.Iproduit2 img {
+		width: 50%;
+	}
+
+	table {
+		color: black;
+	}
+
+	input[type="submit"] {
+		border: none;
+		background-color: orange;
+		color: #063970;
+		border-radius: 10px;
+		margin-left: 20px;
+		cursor: pointer;
+		height: 30px;
+		font-size: 15px;
+	}
+
+	input[type="submit"]:hover {
+		background-color: #063970;
+		color: orange;
+	}
+
+	input[type="text"] {
+		border-radius: 10px;
+		border: none;
+	}
+
+	.bg {
+		width: 100%;
+		background-size:cover;
+	}
+
+	.creature {
+		width: 40%;
+		padding-left: 30%;
+		padding-right: 30%;
+		padding-top: 5vw;
+		box-sizing: content-box;
+	}
+
+	#reponse {
+		position: relative;
+		bottom: 5.5vw;
+		color: black;
+		z-index: 100;
+	}
+
+	.info2 {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.txt {
+		border-radius: 25px;
+		height: 15vw;
+		margin: 0 auto;
+		padding: 1vw;
+		font-size: 2vw;
+		text-align: center;
+		overflow-y: scroll;
+		width: 90%;
+		background-color: rgba(0,0,0,0.4);
+		color: lightgray;
+		-webkit-backdrop-filter: blur(15px);
+		backdrop-filter: blur(5px);
+	}
+
+	#accueiladmin {
+		max-width: 1450px !important;
+	}
+
+	.photo_accueil {
+		width: 100%;
+	}
+
+	.open-btn {
+		display: flex;
+		justify-content: left;
+	}
+
+	/*DEBUT CSS PRODUIT*/
+	#zoneDeCommande .col-sm-3, #zoneDeCommande .col-sm-2{
+		border-radius: 30px;
+		background-color: #8c8b8d;
+		transition: background-color 0.2s ease-in-out;
+	}
+	.items{
+		text-decoration: none;
+	}
+	#zoneDeCommande .col-sm-3:hover, #zoneDeCommande .col-sm-2:hover{
+		background-color: orange;
+		transition: background-color 0.4s ease-in-out;
+	}
+	.Iproduit img{
+		width: 100%;
+		border-radius: 30px 30px 0 0;
+	}
+	.NomProduit, .PrixProduit{
+		color: white;
+		text-decoration: none;
+		text-align: center;
+	}
+	/*FIN CSS PRODUIT*/
+
+	.classement{
+		width: 57vw;
+	}
+
+	/* Stylez et fixez le bouton sur la page */
+	.open-button {
+		background-color: #1c87c9;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		opacity: 0.8;
+		position: fixed;
+	}
+	/* Positionnez la forme Popup */
+	.login-popup {
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+	/* Masquez la forme Popup */
+	.form-popup {
+		display: none;
+		position: fixed;
+		left: 45%;
+		top:5%;
+		transform: translate(-45%,5%);
+		border: 2px solid #666;
+		z-index: 9;
+	}
+	/* Styles pour le conteneur de forme */
+	.form-container {
+		max-width: 300px;
+		padding: 20px;
+		background-color: #fff;
+	}
+	/* Largeur complète pour les champs de saisie */
+	.form-container input[type=text], .form-container input[type=password] {
+		width: 100%;
+		padding: 10px;
+		margin: 5px 0 22px 0;
+		border: none;
+		background: #eee;
+	}
+	/*Quand les entrées sont concentrées, faites quelque chose */
+	.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+		background-color: #ddd;
+		outline: none;
+	}
+	/* Stylez le bouton de connexion*/
+	.form-container .btn {
+		background-color: #8ebf42;
+		color: #fff;
+		padding: 12px 20px;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		margin-bottom:10px;
+		opacity: 0.8;
+	}
+	/* Stylez le bouton pour annuler */
+	.form-container .cancel {
+		background-color: #cc0000;
+	}
+	/* Planez les effets pour les boutons */
+	.form-container .btn:hover, .open-button:hover {
+		opacity: 1;
+	}
+
+	/* réseaux */
+
+	.reseaux{
+		width: 25px;
+	}
+
+	/* Stylez le bouton de connexion*/
+
+	#enigme .bg #monbouton{
+		width: 60px;
+		position: absolute;
+		left: 35vw;
+		top: 1030px;
+		z-index: 3;
+	}
+
+	#enigme .bg #macible{
+		width: 350px;
+		position: absolute;
+		top: 450px;
+		right: 35vw;
+	}
+	#enigme .bg #macible1{
+		width: 650px;
+		position: absolute;
+		top: 550px;
+		right: 34vw;
+	}
+
+	#enigme .bg #monbouton1{
+		width: 20px;
+		position: absolute;
+		right: 510px;
+		top: 1080px;
+		z-index: 15;
+	}
+
+	.bg2 {
+		margin-bottom: 15px !important;
+	}
+
+	.reponse2 {
+		margin-bottom: -3vw !important;
+	}
+
+	.creature2 {
+		padding-top: 0 !important;
+	}
+
+
+
+	@media screen and (max-width:1600px){
+
+		#enigme .bg #monbouton{
+			width: 60px;
+			position: absolute;
+			left: 35vw;
+			top: 937px;
+			z-index: 3;
+		}
+		
+		#enigme .bg #macible{
+			width: 350px;
+			position: absolute;
+			top: 450px;
+			right: 36vw;
+		}
+		#enigme .bg #macible1{
+			width: 650px;
+			position: absolute;
+			top: 550px;
+			right: 29vw;
+		}
+		
+		#enigme .bg #monbouton1{
+			width: 20px;
+			position: absolute;
+			right: 421px;
+			top: 980px;
+			z-index: 15;
+		}
+	}
+
+	@media screen and (max-width:1366px){
+
+		#enigme .bg #monbouton{
+			width: 60px;
+			position: absolute;
+			left: 34vw;
+			top: 863px;
+			z-index: 3;
+		}
+		
+		#enigme .bg #macible{
+			width: 350px;
+			position: absolute;
+			top: 450px;
+			right: 36vw;
+		}
+		#enigme .bg #macible1{
+			width: 650px;
+			position: absolute;
+			top: 550px;
+			right: 24vw;
+		}
+		
+		#enigme .bg #monbouton1{
+			width: 20px;
+			position: absolute;
+			right: 25vw;
+			top: 910px;
+			z-index: 15;
+		}
+	}
